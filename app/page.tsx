@@ -142,7 +142,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="xl:max-w-[1276px] lg:max-w-[798px] max-w-[361px] flex lg:items-center items-start lg:justify-center justify- flex-row mx-auto">
+      <div className="xl:max-w-[1276px] max-w-screen flex lg:items-center items-start justify-start xl:justify-center  flex-row mx-auto">
 
         <div className=" lg:mx-10 mx-4">
 
@@ -399,31 +399,21 @@ const Navbar = () => {
             </p>
         </div>
       </section>
-      <section className="bg-[#F9F9F9] my-5 py-12" id='partners' >
-        <div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">    Partners & <br className="md:hidden flex" /> Sponsors</div>
+      <section className="bg-[#F9F9F9] my-5 py-12 " id='partners' >
+        <div className="lg:mx-10 mx-4">
+         <div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">    Partners & <br className="md:hidden flex" /> Sponsors</div>
 
-        <div className="my-5">
-          <p className="xl:text-[48px] flex items-center justify-center my-3 text-[32px] leading-[38.19px] font-bold xl:leading-[56px]">Partners</p>
+        <div className=" my-5">
+          {/* <p className="xl:text-[48px] flex items-center justify-center my-3 text-[32px] leading-[38.19px] font-bold xl:leading-[56px]">Partners</p> */}
           <div className="mx-5">
             <Image src="/img/partnerXL.svg" alt="img" width="100" height="100" className='xl:flex hidden w-auto' />
-            <Image src="/img/partnerLg.svg" alt="img" width="100" height="100" className='lg:flex md:hidden hidden w-auto' />
+            <Image src="/img/partnerLg.svg" alt="img" width="100" height="100" className='lg:hidden flex  w-auto' />
             <Image src="/img/partnerMd.svg" alt="img" width="100" height="100" className=' md:hidden flex w-auto' />
 
           </div>
         </div>
-        {/* <div className="marquee-container my-5">
-          <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
 
-            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
-            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
-            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
-
-
-
-          </div>
-        </div> */}
-
-        <div className="lg:mx-10 mx-4 my-16">
+        <div className=" my-16">
 
 
           <div className="flex justify-center items-center ">
@@ -455,7 +445,9 @@ const Navbar = () => {
                 </Link></p>
             </div>
           </div>
+        </div> 
         </div>
+        
       </section>
 
       <section className="" id="panelist">
