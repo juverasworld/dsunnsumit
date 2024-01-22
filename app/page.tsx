@@ -142,7 +142,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="">
+      <div className="xl:max-w-[1276px] lg:max-w-[798px] max-w-[361px] flex lg:items-center items-start lg:justify-center justify- flex-row mx-auto">
 
         <div className=" lg:mx-10 mx-4">
 
@@ -153,10 +153,11 @@ const Navbar = () => {
               <span className='text-[#009933] '>UNN Summit</span>
             </div>
           </div>
-          <div className="flex justify-center items-center font-normal xl:text-[28px] lg:text-[24px] lg:leading-[40px] text-[20px] leading-[32px] xl:leading-[44px] lg:text-center text-[#808080] my-5 ">
+          <div className="flex justify-center items-center font-normal xl:text-[28px] lg:text-[16px] lg:leading-[40px] text-[20px] leading-[32px] xl:leading-[44px] lg:text-center text-[#808080] my-5 ">
             DSNUNNSummit highlights diverse careers in the African data space, catering to all level of professionals such as Data Analysts, Scientists, Engineers, AI/ML Engineers, Low Code Developers, Students, Administrators, Researchers, and Recruiters. It&apos;s the perfect event for you.
           </div>
         </div>
+      
       </div>
       <div className="flex lg:mx-10 mx-0 my-16 items-center justify-evenly space-2  md:flex-row flex-col bg-[#F9F9F9] py-2 rounded-[24px] xl:rounded-[1000px]">
         <div className="flex my-2 lg:flex-row  flex-row-reverse  items-center text-[20px] leading-[23.87px] text-right tracking[2%]">
@@ -174,7 +175,7 @@ const Navbar = () => {
           <div className="flex mx-2 my-2">
             <p className=''>
               <Link href="https://lu.ma/kif9q0to">
-                <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[24px]'>
+                <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]'>
                   Register as an attendee
                   <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
                 </button>
@@ -184,7 +185,7 @@ const Navbar = () => {
           <div className="flex mx-2 my-2 ">
             <p className=''>
               <Link href="">
-                <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[42px] py-[8px] text-[24px]  my-2'>
+                <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[42px] py-[8px] text-[16px]  my-2'>
                   Volunteer at event
                   <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
                 </button>
@@ -250,7 +251,7 @@ const Navbar = () => {
                 <p className=''>
                   <Link href="https://docs.google.com/forms/d/e/1FAIpQLSes71duyGOKOl5o_n3HIt0KccBy3CzUgP6NoBwIZV0D2JquzQ/viewform">
 
-                    <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[24px]'>
+                    <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[16px]'>
                       Register for Hackathon
                       <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
                     </button>
@@ -260,7 +261,7 @@ const Navbar = () => {
               <div className="flex mx-2 my-2 ">
                 <p className=''>
                   <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
-                    <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-[30px]  px-[24px] py-[8px] text-[24px]  my-2'>
+                    <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-[30px]  px-[24px] py-[8px] text-[16px]  my-2'>
                       Join Our community
                       <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
                     </button>
@@ -390,7 +391,7 @@ const Navbar = () => {
           <p className=''>
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe5G5d2JznlctzNEefajv5YRfeFn_qqUNPjT6M2-7rkrFe_qA/viewform?pli=1">
 
-            <button className='flex items-center font-bold  justify-center whitespace-nowrap text-[#009933]  border-2 border-[#009933] rounded-3xl w-[243px]  px-[24px] py-[8px] leading-[23.87px] text-[20px] xl:leading-[28px] xl:text-[24px]'>
+            <button className='flex items-center font-bold  justify-center whitespace-nowrap text-[#009933]  border-2 border-[#009933] rounded-3xl w-[243px]  px-[24px] py-[8px] leading-[23.87px] text-[20px] xl:leading-[28px] xl:text-[16px]'>
               Become as Speaker
               <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
             </button>
@@ -439,7 +440,7 @@ const Navbar = () => {
 
             <div className="flex mx-0 md:mx-2 my-2 ">
               <p className=''>
-                <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[24px]'>
+                <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[16px]'>
                   Download our Deck
                   <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
                 </button></p>
@@ -447,7 +448,7 @@ const Navbar = () => {
             <div className="flex mx-0 md:mx-2 my-2 ">
               <p className=''>
                 <Link href="">
-                  <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[24px]  my-2'>
+                  <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]  my-2'>
                     Become a sponsor
                     <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
                   </button>
@@ -477,11 +478,6 @@ const Navbar = () => {
         <ImageSlider />
 
       </section>
-
-      <div className=""> <div className="">
-
-
-      </div></div>
 
       <section className="bg-[#F9F9F9] my-10">
         <Timer />
