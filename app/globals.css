@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SF Pro Display Regular';
+  src: url('/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  /* Add more src lines if you have multiple font formats */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'SF Pro Display Regular', sans-serif;
+}
+nav{
+  font-size: 16px;
+}
+  .dropdown-container {
+    position: absolute;
+    
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+
+  .dropdown-item {
+    /* Add your existing styles for dropdown items here */
+    /* Example: */
+    margin-top: 30px;
+
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .font{
+    font-size: 1.5em;
+  
+  }
+
+.speaker{
+  overflow:hidden;
+  margin-left: 3.9%;
+}
+/* styles/globals.css */
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.timer{
+font-size: 50px;
+line-height: 70.47px;
+font-weight: bold;
+letter-spacing: 12px;
+text-align: center;
+}
+
+.inactive-color {
+  filter: grayscale(80%); /* Adjust the percentage to control the level of grayscale */
+  opacity: 0.7; /* Adjust the opacity as needed */
+  /* Add any other styles you want for your inactive color */
+}
+
