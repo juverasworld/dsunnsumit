@@ -5,6 +5,7 @@ import Image from 'next/image';
 import ImageSlider from '@/component/imageSlider';
 import Footer from '@/component/Footer';
 import Timer from '@/component/Timer';
+import Images from '@/component/image';
 
 
 const Navbar = () => {
@@ -467,7 +468,8 @@ const Navbar = () => {
 
       </section>
       <section id="organizers" className='my-7'>
-        <ImageSlider />
+        {/* <ImageSlider /> */}
+        <Images/>
 
       </section>
 

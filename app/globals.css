@@ -80,3 +80,9 @@ text-align: center;
   /* Add any other styles you want for your inactive color */
 }
 
+
+.abs{
+position: absolute;
+left: 350px;
+top:10px
+}
