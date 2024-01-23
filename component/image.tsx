@@ -1,31 +1,30 @@
-
 import React, { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 const ImageGallery: React.FC = () => {
-    const sliderRef = useRef<HTMLDivElement>(null);
-    const [currentImage, setCurrentImage] = useState(1);
+  const sliderRef = useRef<HTMLDivElement>(null);
+  const [currentImage, setCurrentImage] = useState(1);
 
-    const totalImages = 25; // Update with the total number of images
+  const totalImages = 25; // Update with the total number of images
 
-    const scrollSlider = (direction: "left" | "right") => {
-      const step = 100; // adjust as needed
-      const currentScroll = sliderRef.current?.scrollLeft || 0;
+  const scrollSlider = (direction: "left" | "right") => {
+    const step = 100; // adjust as needed
+    const currentScroll = sliderRef.current?.scrollLeft || 0;
 
-      if (direction === "left" && currentImage > 1) {
-        sliderRef.current?.scrollTo({
-          left: currentScroll - step,
-          behavior: "smooth",
-        });
-        setCurrentImage((prev) => prev - 1);
-      } else if (direction === "right" && currentImage < totalImages) {
-        sliderRef.current?.scrollTo({
-          left: currentScroll + step,
-          behavior: "smooth",
-        });
-        setCurrentImage((prev) => prev + 1);
-      }
-    };
+    if (direction === "left" && currentImage > 1) {
+      sliderRef.current?.scrollTo({
+        left: currentScroll - step,
+        behavior: "smooth",
+      });
+      setCurrentImage((prev) => prev - 1);
+    } else if (direction === "right" && currentImage < totalImages) {
+      sliderRef.current?.scrollTo({
+        left: currentScroll + step,
+        behavior: "smooth",
+      });
+      setCurrentImage((prev) => prev + 1);
+    }
+  };
 
   return (
     <div className="">
@@ -33,7 +32,16 @@ const ImageGallery: React.FC = () => {
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/lead.svg" />
           <div className="button-container">
-            <button className="hello-button">Twitter</button>
+            <button className="hello-button">
+              {" "}
+              <Image
+                src="/img/button.svg"
+                alt=""
+                width="3"
+                height="3"
+                className="w-2 icons"
+              />
+            </button>
           </div>
         </div>
         <div className="box">
@@ -70,10 +78,22 @@ const ImageGallery: React.FC = () => {
           <Image width="10" height="10" alt="" src="/img/tochukwu.svg" />
           <div className="button-container px-5">
             <button className="hello-button  px-5 flex items-center justify-center ">
-                <Image src="/img/twitter.svg" alt=""  width="3" height="3" className="w-2 icons"/>
-               <span className="px-5">Twitter</span> 
-                <Image src="/img/whiteIcon.svg" alt="" width="3" height="3" className="w-2 icons"/>
-                </button>
+              <Image
+                src="/img/twitter.svg"
+                alt=""
+                width="3"
+                height="3"
+                className="w-2 icons"
+              />
+              <span className="px-5">Twitter</span>
+              <Image
+                src="/img/whiteIcon.svg"
+                alt=""
+                width="3"
+                height="3"
+                className="w-2 icons"
+              />
+            </button>
           </div>
         </div>
       </div>
