@@ -43,15 +43,26 @@ nav {
   font-size: 1.5em;
 
 }
+.containers::-webkit-scrollbar {
+  width: 12px;
+  /* Adjust as needed */
+}
 
+.containers::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+.containers::-webkit-scrollbar-track {
+  background-color: transparent;
+}
 .containers {
   position: relative;
-  /* Set position to relative */
   white-space: nowrap;
-  overflow-x: scroll;
-  /* border: 1px solid #ccc; */
+  overflow-x: auto;
   padding: 10px;
   margin-left: 3.9%;
+  background: linear-gradient(to right, transparent, transparent 10%, rgba(255, 255, 255, 0.9) 10%, rgba(255, 255, 255, 0.9) 90%, transparent 90%, transparent);
 }
 
 .box {

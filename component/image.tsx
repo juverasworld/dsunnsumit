@@ -29,7 +29,7 @@ const ImageGallery: React.FC = () => {
 
   return (
     <div className="">
-      <div ref={sliderRef} className="containers overflow-x-auto relative">
+      <div ref={sliderRef} className="containers overflow-hidden relative">
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/lead.svg" />
           <div className="button-container">
@@ -77,7 +77,7 @@ const ImageGallery: React.FC = () => {
             className="w-auto  mx-2"
           />
         </button>
-        <p className="bg-[#F9F9F9]  mx-5"> 0{currentImage}-15</p>
+        <p className="bg-[#F9F9F9] mx-5">{`${currentImage}/${totalImages}`}</p>
         <button onClick={() => scrollSlider("right")}>
           <Image
             width="10"
