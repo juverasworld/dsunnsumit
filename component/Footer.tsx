@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 const Footer: React.FC = () => {
     return (
-        <footer className="my-16 lg:mx-10 mx-4 ">
+        <footer className="my-16 border-0">
             <div className="flex lg:flex-row  flex-col container lg:mx-auto justify-evenly items-center">
                 <div className="my-2 mx-10 lg:mx-0 ">
                     <Link href="/" className="text-[#808080]  font-500  font-500  font-500 text-lg font-bold">

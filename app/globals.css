@@ -11,47 +11,53 @@
 }
 
 body {
+  /* overflow: hidden; */
   font-family: 'SF Pro Display Regular', sans-serif;
 }
-nav{
+
+nav {
   font-size: 16px;
 }
-  .dropdown-container {
-    position: absolute;
-    
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    /* transform: translate(-50%, -50%); */
-    text-align: center;
-  }
 
-  .dropdown-item {
-    /* Add your existing styles for dropdown items here */
-    /* Example: */
-    margin-top: 30px;
+.dropdown-container {
+  position: absolute;
 
-    color: #808080;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  .font{
-    font-size: 1.5em;
-  
-  }
-.container {
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+}
+
+.dropdown-item {
+  /* Add your existing styles for dropdown items here */
+  /* Example: */
+  margin-top: 30px;
+
+  color: #808080;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.font {
+  font-size: 1.5em;
+
+}
+
+.containers {
   position: relative;
   /* Set position to relative */
   white-space: nowrap;
-  overflow-x: auto;
-  border: 1px solid #ccc;
+  overflow-x: scroll;
+  /* border: 1px solid #ccc; */
   padding: 10px;
+  margin-left: 3.9%;
 }
 
 .box {
   width: auto;
   height: auto;
-  background-color: #3498db;
+  /* background-color: #3498db; */
   display: inline-block;
   margin-right: 10px;
   position: relative;
@@ -72,17 +78,19 @@ nav{
 }
 
 .hello-button {
-  background-color: #3498db;
+  background-color:#00993380;
   color: #fff;
   border: none;
   padding: 8px 12px;
   cursor: pointer;
   z-index: 1;
 }
-.speaker{
- overflow-x:visible;
-  margin-left: 3.9%;
+
+.speaker {
+  overflow-x: hidden;
+ 
 }
+
 /* styles/globals.css */
 
 .marquee-container {
@@ -101,30 +109,35 @@ nav{
   0% {
     left: 100%;
   }
+
   100% {
     left: -100%;
   }
 }
-.timer{
-font-size: 50px;
-line-height: 70.47px;
-font-weight: bold;
-letter-spacing: 12px;
-text-align: center;
+
+.timer {
+  font-size: 50px;
+  line-height: 70.47px;
+  font-weight: bold;
+  letter-spacing: 12px;
+  text-align: center;
 }
 
 .inactive-color {
-  filter: grayscale(80%); /* Adjust the percentage to control the level of grayscale */
-  opacity: 0.7; /* Adjust the opacity as needed */
+  filter: grayscale(80%);
+  /* Adjust the percentage to control the level of grayscale */
+  opacity: 0.7;
+  /* Adjust the opacity as needed */
   /* Add any other styles you want for your inactive color */
 }
 
 
-.abs{
-position: absolute;
-left: 350px;
-top:10px
+.abs {
+  position: absolute;
+  left: 350px;
+  top: 10px
 }
-.widther{
+
+.widther {
   width: 75%;
 }
