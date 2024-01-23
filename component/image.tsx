@@ -1,19 +1,47 @@
-import Image from "next/image"
-import Link from "next/link"
-export default function Images(){
-    return(
-        <div className="">
-            <div className="relative">
-                
-                             <Image width="10" height="10" src="/img/sophia.svg" alt="image" className="w-auto relative mx-3" />
-<Link href={"/"} className="abs"> hello world</Link>
+import { useState } from "react";
+import Image from "next/image";
 
-                
-               
-
-               
-
-            </div>
+const ImageGallery = () => {
+  return (
+    <div className="container relative">
+      <div className="box">
+        <Image width="10" height="10" alt="" src="/img/lead.svg" />
+        <div className="button-container">
+          <button className="hello-button">Hello World</button>
         </div>
-    )
-}
+      </div>
+      <div className="box">
+        <Image width="10" height="10" alt="" src="/img/nancy.svg" />
+        <div className="button-container">
+          <button className="hello-button">Hello World</button>
+        </div>
+      </div>
+      <div className="box">
+        <Image width="10" height="10" alt="" src="/img/boniface.svg" />
+        <div className="button-container">
+          <button className="hello-button">Hello World</button>
+        </div>
+      </div>
+      <div className="box">
+        <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
+        <div className="button-container">
+          <button className="hello-button">Hello World</button>
+        </div>
+      </div>
+      <div className="box">
+        <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
+        <div className="button-container">
+          <button className="hello-button">Hello World</button>
+        </div>
+      </div>
+      <div className="box">
+        <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
+        <div className="button-container">
+          <button className="hello-button">Hello World</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ImageGallery;

@@ -39,9 +39,48 @@ nav{
     font-size: 1.5em;
   
   }
+.container {
+  position: relative;
+  /* Set position to relative */
+  white-space: nowrap;
+  overflow-x: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
 
+.box {
+  width: auto;
+  height: auto;
+  background-color: #3498db;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  /* Set position to relative */
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+}
+
+.hello-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  z-index: 1;
+}
 .speaker{
-  overflow:hidden;
+ overflow-x:visible;
   margin-left: 3.9%;
 }
 /* styles/globals.css */
@@ -85,4 +124,7 @@ text-align: center;
 position: absolute;
 left: 350px;
 top:10px
+}
+.widther{
+  width: 75%;
 }

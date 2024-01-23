@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <main className=" font-sf-pro-display">
-      <nav className="bg-white p-4 border-[3px] border-[#F6F6F6]">
+      <nav className="bg-white border-[3px] border-[#F6F6F6]">
         <div className="container mx-auto flex justify-between  items-center">
           <Link href="/" className="text-[#808080]  font-500  font-500  font-500 text-lg font-bold">
             <Image src="/img/logo.svg" alt="img" width="100" height="100" />
