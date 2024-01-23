@@ -43,25 +43,31 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
+          <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
+          <div className="button-container">
+            <button className="hello-button">Hello World</button>
+          </div>
+        </div>
+        <div className="box">
           <Image width="10" height="10" alt="" src="/img/boniface.svg" />
           <div className="button-container">
             <button className="hello-button">Hello World</button>
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
+          <Image width="10" height="10" alt="" src="/img/chidera.svg" />
           <div className="button-container">
             <button className="hello-button">Hello World</button>
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
+          <Image width="10" height="10" alt="" src="/img/chisom.svg" />
           <div className="button-container">
             <button className="hello-button">Hello World</button>
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
+          <Image width="10" height="10" alt="" src="/img/tochukwu.svg" />
           <div className="button-container">
             <button className="hello-button">Hello World</button>
           </div>
