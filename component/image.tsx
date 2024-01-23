@@ -69,7 +69,11 @@ const ImageGallery: React.FC = () => {
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/tochukwu.svg" />
           <div className="button-container">
-            <button className="hello-button">Hello World</button>
+            <button className="hello-button   flex items-center justify-center ">
+                <Image src="/img/twitter.svg" alt="" width="3" height="3" className="w-2"/>
+               <span className="text-sm">Hello World</span> 
+                <Image src="/img/whiteIcon.svg" alt="" width="3" height="3" className="w-2"/>
+                </button>
           </div>
         </div>
       </div>

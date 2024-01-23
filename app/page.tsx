@@ -165,7 +165,7 @@ const Navbar = () => {
           <div className="mx-3 flex md:flex-col flex-row">
 
             <p className="text-[#333333]">Saturday 12th,</p>
-            <p className="">Jan 2024</p>
+            <p className="">March 2024</p>
           </div>
           <p className="">
             <Image src="/img/date.svg" width="10" height="10" alt="clock" className='w-auto' />
@@ -196,8 +196,8 @@ const Navbar = () => {
         </div>
         <div className="flex  flex-row-reverse my-2 items-center text-[20px] leading-[23.87px] text-left tracking[2%]">
           <div className="mx-3 flex md:flex-col flex-row w-fit">
-            <p className="text-[#333333] w-fit">Freedom Square</p>
-            <p className="text-left w-fit mx-2">UNN</p>
+            <p className="text-[#333333] w-fit">PAA</p>
+            <p className="text-left w-fit ">UNN</p>
           </div>
           <p className="">
             <Image src="/img/location.svg" width="10" height="10" alt="clock" className='w-auto' />
@@ -393,7 +393,7 @@ const Navbar = () => {
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe5G5d2JznlctzNEefajv5YRfeFn_qqUNPjT6M2-7rkrFe_qA/viewform?pli=1">
 
             <button className='flex items-center font-bold  justify-center whitespace-nowrap text-[#009933]  border-2 border-[#009933] rounded-3xl w-[243px]  px-[24px] py-[8px] leading-[23.87px] text-[20px] xl:leading-[28px] xl:text-[16px]'>
-              Become as Speaker
+            Speak at Event
               <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
             </button>
             </Link>
