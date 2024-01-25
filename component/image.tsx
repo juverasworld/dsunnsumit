@@ -5,7 +5,7 @@ const ImageGallery: React.FC = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
   const [currentImage, setCurrentImage] = useState(1);
 
-  const totalImages = 25; // Update with the total number of images
+  const totalImages = 20; // Update with the total number of images
 
   const scrollSlider = (direction: "left" | "right") => {
     const step = 100; // adjust as needed
@@ -131,8 +131,7 @@ const ImageGallery: React.FC = () => {
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/tochukwu.svg" />
           <div className="button-container px-5">
-            <button className="hello-button  px-5 flex items-center justify-center ">
-              <button className="hello-button">
+             <button className="hello-button">
                 <Link href="">
                   <Image
                     src="/img/button.svg"
@@ -143,7 +142,6 @@ const ImageGallery: React.FC = () => {
                   />
                 </Link>{" "}
               </button>
-            </button>
           </div>
         </div>
       </div>

@@ -78,8 +78,8 @@ nav {
 }
 
 .box img {
-  width: auto;
-  height: auto;
+  width: 276px;
+  height: 360px;
   /* object-fit: cover; */
 }
 
@@ -90,7 +90,7 @@ nav {
 
 .button-container {
   position: absolute;
-  top: 0;
+  bottom: 40%;
   right: 0;
   padding: 8px;
 }
