@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Footer: React.FC = () => {
     return (
       <footer className="my-16 border-0">
-        <div className="flex lg:flex-row  flex-col container lg:mx-auto justify-evenly items-center">
+        <div className="">
           <div className="my-2 mx-10 lg:mx-0 ">
             <Link
               href="/"
@@ -34,22 +34,22 @@ const Footer: React.FC = () => {
               />
             </p>
           </div>
-          <div className="flex  items-center justify-evenly md:flex-row flex-col">
-            <div className="flex  lg:mx-10 mx-4  items-start md:items-center justify-evenly my-5">
-              <div className=" mx-5 text-left  md:mx-3">
-                <p className="my-2 mx-2">About</p>
-                <p className="my-2 mx-2">Speakers</p>
-                <p className="">Partners & Sponsors</p>
+          <div className="flex xl:flex-row flex-col items-center ">
+            <div className="flex flex-row">
+              <div className="flex flex-col">
+                <Link href="/">About</Link>
+                <Link href="/">Speakers</Link>
+                <Link href="/">Partners & Sponsors</Link>
               </div>
-              <div className=" mx-5 text-left  md:mx-3">
-                <p className="my-2 mx-2">Panelist</p>
-                <p className="my-2 mx-2">Organizers</p>
-                <p className="my-2 mx-2">Our Blog</p>
+              <div className="flex flex-col">
+                <Link href="/">Panelist</Link>
+                <Link href="/">Organizers</Link>
+                <Link href="/">Our Blog</Link>
               </div>
             </div>
+            <div className="flex ">
+            <p className="">
 
-            <div className="flex  lg:mx-10 mx-4 text-left ">
-              <p className="">
                 <button className="flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]">
                   Join Our Community
                   <Image
@@ -60,7 +60,8 @@ const Footer: React.FC = () => {
                     className="w-auto px-2"
                   />
                 </button>
-              </p>
+            </p>
+           
             </div>
           </div>
         </div>

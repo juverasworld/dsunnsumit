@@ -28,71 +28,121 @@ const ImageGallery: React.FC = () => {
 
   return (
     <div className="">
+      <div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">
+        Organizers
+      </div>
       <div ref={sliderRef} className="containers overflow-hidden relative">
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/lead.svg" />
           <div className="button-container">
             <button className="hello-button">
-              {" "}
-              <Image
-                src="/img/button.svg"
-                alt=""
-                width="3"
-                height="3"
-                className="w-2 icons"
-              />
+              <Link href="">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
             </button>
           </div>
         </div>
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/nancy.svg" />
           <div className="button-container">
-            <button className="hello-button">Twitter</button>
+            <button className="hello-button">
+              <Link href="">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
           </div>
         </div>
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
           <div className="button-container">
-            <button className="hello-button">Twitter</button>
+            <button className="hello-button">
+              <Link href="">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
           </div>
         </div>
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/boniface.svg" />
           <div className="button-container">
-            <button className="hello-button">Twitter</button>
+            <button className="hello-button">
+              <Link href="">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
           </div>
         </div>
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/chidera.svg" />
           <div className="button-container">
-            <button className="hello-button">Twitter</button>
+            <button className="hello-button">
+              <Link href="">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
           </div>
         </div>
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/chisom.svg" />
           <div className="button-container">
-            <button className="hello-button">Twitter</button>
+            <button className="hello-button">
+              <Link href="">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
           </div>
         </div>
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/tochukwu.svg" />
           <div className="button-container px-5">
             <button className="hello-button  px-5 flex items-center justify-center ">
-              <Image
-                src="/img/twitter.svg"
-                alt=""
-                width="3"
-                height="3"
-                className="w-2 icons"
-              />
-              <span className="px-5">Twitter</span>
-              <Image
-                src="/img/whiteIcon.svg"
-                alt=""
-                width="3"
-                height="3"
-                className="w-2 icons"
-              />
+              <button className="hello-button">
+                <Link href="">
+                  <Image
+                    src="/img/button.svg"
+                    alt=""
+                    width="3"
+                    height="3"
+                    className="w-2 icons"
+                  />
+                </Link>{" "}
+              </button>
             </button>
           </div>
         </div>
