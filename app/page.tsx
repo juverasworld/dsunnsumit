@@ -705,7 +705,7 @@ const Navbar = () => {
       <section className="bg-[#F9F9F9] my-10">
         <Timer />
       </section>
-      <footer className="my-16 border-0 flex w-full items-center justify-center">
+      <footer className="my-16 border-0 flex w-full items-center  justify-center">
         <div className="flex xl:flex-row w-full  flex-col justify-center items-center">
           <div className="my-2 mx-10 lg:mx-5 xl:w-auto w-full ">
             <Link
