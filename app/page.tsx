@@ -1,6 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+// import AOS from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
 import ImageSlider from "@/component/imageSlider";
 import Footer from "@/component/Footer";
@@ -8,6 +10,9 @@ import Timer from "@/component/Timer";
 import Images from "@/component/image";
 
 const Navbar = () => {
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -16,7 +21,7 @@ const Navbar = () => {
 
   return (
     <main className=" font-sf-pro-display">
-      <nav className="bg-white border-[3px] border-[#F6F6F6]">
+      <nav className="bg-white border-[3px] border-[#F6F6F6] px-12">
         <div className="container mx-auto flex justify-between  items-center">
           <Link
             href="/"
@@ -189,7 +194,10 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="xl:max-w-[1276px] max-w-screen flex lg:items-center items-start justify-start xl:justify-center  flex-row mx-auto">
+      <div
+       
+        className="xl:max-w-[1276px] max-w-screen flex lg:items-center items-start justify-start xl:justify-center  flex-row mx-auto"
+      >
         <div className=" lg:mx-10 mx-4">
           <div className="flex justify-center items-center ">
             <div className="xl:text-center  xl:text-[104px] tracking-[-2%] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
@@ -585,12 +593,12 @@ const Navbar = () => {
       </section>
       <section className="bg-[#F9F9F9] my-5 py-12 " id="partners">
         <div className="lg:mx-10 mx-4">
-          <div className="flex xl:flex hidden items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">
+          <div className="flex xl:flex hidden items-center justify-center text-[#3E3F96] xl:leading-[80px] my-10 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">
             {" "}
             Partners & <br className="md:hidden flex" /> Sponsors
           </div>
 
-          <div className=" my-5">
+          <div className=" my-5 flex flex-col items-center justify-center">
             {/* <p className="xl:text-[48px] flex items-center justify-center my-3 text-[32px] leading-[38.19px] font-bold xl:leading-[56px]">Partners</p> */}
 
             <div className="mx-5">

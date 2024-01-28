@@ -36,7 +36,7 @@ const ImageGallery: React.FC = () => {
           <Image width="10" height="10" alt="" src="/img/lead.svg" />
           <div className="button-container">
             <button className="hello-button">
-              <Link href="">
+              <Link href="https://www.linkedin.com/in/ibekwe-kingsley-ba0b0516a">
                 <Image
                   src="/img/button.svg"
                   alt=""
@@ -52,7 +52,7 @@ const ImageGallery: React.FC = () => {
           <Image width="10" height="10" alt="" src="/img/nancy.svg" />
           <div className="button-container">
             <button className="hello-button">
-              <Link href="">
+              <Link href="https://www.linkedin.com/in/nancy-amandi">
                 <Image
                   src="/img/button.svg"
                   alt=""
@@ -65,7 +65,23 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
+          <Image width="10" height="10" alt="" src="/img/nancy.svg" />
+          <div className="button-container">
+            <button className="hello-button">
+              <Link href="https://www.linkedin.com/in/samuel-okwor-b80740242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
+          </div>
+        </div>
+        <div className="box">
+          <Image width="10" height="10" alt="" src="/img/oluwa.svg" />
           <div className="button-container">
             <button className="hello-button">
               <Link href="">
@@ -116,7 +132,7 @@ const ImageGallery: React.FC = () => {
           <Image width="10" height="10" alt="" src="/img/chisom.svg" />
           <div className="button-container">
             <button className="hello-button">
-              <Link href="">
+              <Link href="https://www.linkedin.com/in/chisom-chibuike/">
                 <Image
                   src="/img/button.svg"
                   alt=""
@@ -131,17 +147,33 @@ const ImageGallery: React.FC = () => {
         <div className="box">
           <Image width="10" height="10" alt="" src="/img/tochukwu.svg" />
           <div className="button-container px-5">
-             <button className="hello-button">
-                <Link href="">
-                  <Image
-                    src="/img/button.svg"
-                    alt=""
-                    width="3"
-                    height="3"
-                    className="w-2 icons"
-                  />
-                </Link>{" "}
-              </button>
+            <button className="hello-button">
+              <Link href="https://www.linkedin.com/in/tobechukwu-okamkpa">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
+          </div>
+        </div>
+        <div className="box">
+          <Image width="10" height="10" alt="" src="/img/solomon.svg" />
+          <div className="button-container px-5">
+            <button className="hello-button">
+              <Link href="https://www.linkedin.com/in/odelola-solomono-47b816194/">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
           </div>
         </div>
       </div>
