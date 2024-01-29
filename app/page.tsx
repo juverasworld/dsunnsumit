@@ -9,7 +9,7 @@ import Footer from "@/component/Footer";
 import Timer from "@/component/Timer";
 import Images from "@/component/image";
 
-const Navbar = () => {
+const Home = () => {
   // useEffect(() => {
   //   AOS.init();
   // }, []);
@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <main className=" font-sf-pro-display">
-      <nav className="bg-white border-[3px] border-[#F6F6F6] px-12">
+      <nav className="bg-white border-[3px] border-[#F6F6F6] lg:px-12 px-3 py-2  w-full">
         <div className="container mx-auto flex justify-between  items-center">
           <Link
             href="/"
@@ -194,10 +194,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div
-       
-        className="xl:max-w-[1276px] max-w-screen flex lg:items-center items-start justify-start xl:justify-center  flex-row mx-auto"
-      >
+      <div className="xl:max-w-[1276px] max-w-screen pt-32 flex lg:items-center items-start justify-start xl:justify-center  flex-row mx-auto">
         <div className=" lg:mx-10 mx-4">
           <div className="flex justify-center items-center ">
             <div className="xl:text-center  xl:text-[104px] tracking-[-2%] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
@@ -214,7 +211,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="flex lg:mx-10 mx-0 my-16 items-center justify-evenly space-2  md:flex-row flex-col bg-[#F9F9F9] py-2 rounded-[24px] xl:rounded-[1000px]">
+      <div className="flex lg:mx-10 mx-0 my-10 items-center justify-evenly space-2  md:flex-row flex-col bg-[#F9F9F9] py-2 rounded-[24px] xl:rounded-[1000px]">
         <div className="flex my-2 lg:flex-row  flex-row-reverse  items-center text-[20px] leading-[23.87px] text-right tracking[2%]">
           <div className="mx-3 flex md:flex-col flex-row">
             <p className="text-[#333333]">Saturday 24th,</p>
@@ -234,7 +231,7 @@ const Navbar = () => {
           <div className="flex mx-2 my-2">
             <p className="">
               <Link href="https://lu.ma/kif9q0to">
-                <button className="flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]">
+                <button className="flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[30px] py-[9px] text-[20px]">
                   Register as an attendee
                   <Image
                     src="/img/arrow.svg"
@@ -250,7 +247,7 @@ const Navbar = () => {
           <div className="flex mx-2 my-2 ">
             <p className="">
               <Link href="">
-                <button className="flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[42px] py-[8px] text-[16px]  my-2">
+                <button className="flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[50px] py-[9px] text-[20px]  my-2">
                   Volunteer at event
                   <Image
                     src="/img/green.svg"
@@ -364,9 +361,9 @@ const Navbar = () => {
             <div className="flex  items-center md:flex-row flex-col my-5 ">
               <div className="flex mx-2 my-2">
                 <p className="">
-                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLSes71duyGOKOl5o_n3HIt0KccBy3CzUgP6NoBwIZV0D2JquzQ/viewform">
-                    <button className="flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[16px]">
-                      Register for Hackathon
+                  <Link href="">
+                    <button className="flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[35px] py-[10px] text-[20px]">
+                      Get Our Custom DP
                       <Image
                         src="/img/arrow.svg"
                         width="10"
@@ -381,7 +378,7 @@ const Navbar = () => {
               <div className="flex mx-2 my-2 ">
                 <p className="">
                   <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
-                    <button className="flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-[30px]  px-[24px] py-[8px] text-[16px]  my-2">
+                    <button className="flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-[30px]  px-[30px] py-[9px] text-[20px]  my-2">
                       Join Our community
                       <Image
                         src="/img/green.svg"
@@ -403,8 +400,8 @@ const Navbar = () => {
               className="xl:w-auto w-full my-5 "
             />
           </div>
-          <div className="xl:w-[45%] mx-2 w-full">
-            <h2 className="text-[#009933] md:leading-[47.73px] leading-[32.73px]  font-bold md:text-[40px] text-[32px] tracking-[-2%]">
+          <div className="xl:w-[45%] mx-2 lg:my-0 my-10 w-full">
+            <h2 className="text-[#009933] md:leading-[47.73px] lg:my-0 my-10 leading-[32.73px]  font-bold md:text-[40px] text-[32px] tracking-[-2%]">
               Schedule & Agenda
             </h2>
             <div className=" border-b-[1px] pb-4 my-2 border-[#333333]">
@@ -593,7 +590,7 @@ const Navbar = () => {
       </section>
       <section className="bg-[#F9F9F9] my-5 py-12 " id="partners">
         <div className="lg:mx-10 mx-4">
-          <div className="flex xl:flex hidden items-center justify-center text-[#3E3F96] xl:leading-[80px] my-10 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">
+          <div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-10 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">
             {" "}
             Partners & <br className="md:hidden flex" /> Sponsors
           </div>
@@ -627,7 +624,7 @@ const Navbar = () => {
           </div>
 
           <div className=" my-16">
-            <div className="flex justify-center items-center ">
+            <div className="flex justify-center items-center lg:text-left text-center ">
               <div className="xl:text-center  xl:text-[48px]  font-bold lg:text-[40px] lg:leading:[47.73px]  leading:[38.19px] text-[32px] xl:leading-[56px] ">
                 <span className="">Data Scientists Network UNN 2024 </span>
                 <br className="md:flex hidden " />
@@ -713,7 +710,7 @@ const Navbar = () => {
       <section className="bg-[#F9F9F9] my-10">
         <Timer />
       </section>
-      <footer className="my-16 border-0 flex w-full items-center  justify-center">
+      <footer className="my-16 border-0 text-[#808080] flex w-full items-center  justify-center">
         <div className="flex xl:flex-row w-full  flex-col justify-center items-center">
           <div className="my-2 mx-10 lg:mx-5 xl:w-auto w-full ">
             <Link
@@ -723,7 +720,7 @@ const Navbar = () => {
               <Image src="/img/logo.svg" alt="img" width="100" height="100" />
             </Link>
             <p className="my-2 mx-5">
-              DSNUNNSummit is a comprehensive event
+              DSN UNN Summit is a comprehensive event
               <br className="xl:flex lg:hidden flex" /> spotlighting diverse
               careers in Africa&apos;s data space
             </p>
@@ -790,4 +787,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Home;

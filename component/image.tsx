@@ -65,10 +65,26 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/nancy.svg" />
+          <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
           <div className="button-container">
             <button className="hello-button">
               <Link href="https://www.linkedin.com/in/samuel-okwor-b80740242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
+          </div>
+        </div>
+        <div className="box">
+          <Image width="10" height="10" alt="" src="/img/vera.svg" />
+          <div className="button-container">
+            <button className="hello-button">
+              <Link href="https://www.linkedin.com/in/obasi-vera-a8b155198/">
                 <Image
                   src="/img/button.svg"
                   alt=""
