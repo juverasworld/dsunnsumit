@@ -2,13 +2,16 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 // import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import Image from "next/image";
 import ImageSlider from "@/component/imageSlider";
 import Footer from "@/component/Footer";
 import Timer from "@/component/Timer";
 import Images from "@/component/image";
+import { fadeIn } from "../variant";
 
+
+import { motion } from "framer-motion";
 const Home = () => {
   // useEffect(() => {
   //   AOS.init();
@@ -20,7 +23,7 @@ const Home = () => {
   };
 
   return (
-    <main className=" font-sf-pro-display">
+    <main className=" font-sf-pro-display oveflow-hidden">
       <nav className="bg-white border-[3px] border-[#F6F6F6] lg:px-12 px-3 py-2  w-full">
         <div className="container mx-auto flex justify-between  items-center">
           <Link
@@ -196,22 +199,40 @@ const Home = () => {
       </nav>
       <div className="xl:max-w-[1276px] max-w-screen pt-32 flex lg:items-center items-start justify-start xl:justify-center  flex-row mx-auto">
         <div className=" lg:mx-10 mx-4">
-          <div className="flex justify-center items-center ">
+          <motion.div
+            variants={fadeIn("up", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex justify-center items-center "
+          >
             <div className="xl:text-center  xl:text-[104px] tracking-[-2%] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
               <span className=" text-[#FE0000]">Data Scientists Network </span>
               <span className="text-[#009933] ">UNN Summit</span>
             </div>
-          </div>
-          <div className="flex justify-center items-center font-normal xl:text-[28px] lg:text-[16px] lg:leading-[40px] text-[20px] leading-[32px] xl:leading-[44px] lg:text-center text-[#808080] my-5 ">
+          </motion.div>
+          <motion.div
+            variants={fadeIn("down", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex justify-center items-center font-normal xl:text-[28px] lg:text-[16px] lg:leading-[40px] text-[20px] leading-[32px] xl:leading-[44px] lg:text-center text-[#808080] my-5 "
+          >
             DSNUNNSummit highlights diverse careers in the African data space,
             catering to all level of professionals such as Data Analysts,
             Scientists, Engineers, AI/ML Engineers, Low Code Developers,
             Students, Administrators, Researchers, and Recruiters. It&apos;s the
             perfect event for you.
-          </div>
+          </motion.div>
         </div>
       </div>
-      <div className="flex lg:mx-10 mx-0 my-10 items-center justify-evenly space-2  md:flex-row flex-col bg-[#F9F9F9] py-2 rounded-[24px] xl:rounded-[1000px]">
+      <motion.div
+        variants={fadeIn("up", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.3 }}
+        className="flex lg:mx-10 mx-0 my-10 items-center justify-evenly space-2  md:flex-row flex-col bg-[#F9F9F9] py-2 rounded-[24px] xl:rounded-[1000px]"
+      >
         <div className="flex my-2 lg:flex-row  flex-row-reverse  items-center text-[20px] leading-[23.87px] text-right tracking[2%]">
           <div className="mx-3 flex md:flex-col flex-row">
             <p className="text-[#333333]">Saturday 24th,</p>
@@ -276,8 +297,14 @@ const Home = () => {
             />
           </p>
         </div>
-      </div>
-      <div className="flex md:flex-row flex-col justify-center items-center lg:mx-10 mx-4 ">
+      </motion.div>
+      <motion.div
+        variants={fadeIn("up", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.3 }}
+        className="flex md:flex-row flex-col justify-center items-center lg:mx-10 mx-4 "
+      >
         <Image
           src="/img/imgA.svg"
           alt="people"
@@ -329,10 +356,13 @@ const Home = () => {
           height="10"
           className="lg:w-auto w-full m-2"
         />
-      </div>
+      </motion.div>
 
       <section className="my-16" id="about">
-        <div className="flex xl:flex-row flex-col justify-evenly items-center lg:mx-10 mx-4 ">
+        <div
+         
+          className="flex xl:flex-row flex-col justify-evenly items-center lg:mx-10 mx-4 "
+        >
           <div className="xl:w-[45%] mx-2 w-full">
             <h1 className="text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] font-bold xl:text-[72px] text-[48px] ">
               About Event
@@ -589,7 +619,13 @@ const Home = () => {
         </div>
       </section>
       <section className="bg-[#F9F9F9] my-5 py-12 " id="partners">
-        <div className="lg:mx-10 mx-4">
+        <motion.div
+          variants={fadeIn("up", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.3 }}
+          className="lg:mx-10 mx-4"
+        >
           <div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-10 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">
             {" "}
             Partners & <br className="md:hidden flex" /> Sponsors
@@ -668,7 +704,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </section>
 
       <section className="" id="panelist">
@@ -710,7 +746,13 @@ const Home = () => {
       <section className="bg-[#F9F9F9] my-10">
         <Timer />
       </section>
-      <footer className="my-16 border-0 text-[#808080] flex w-full items-center  justify-center">
+      <motion.footer
+        variants={fadeIn("up", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.3 }}
+        className="my-16 border-0 text-[#808080] flex w-full items-center  justify-center"
+      >
         <div className="flex xl:flex-row w-full  flex-col justify-center items-center">
           <div className="my-2 mx-10 lg:mx-5 xl:w-auto w-full ">
             <Link
@@ -782,7 +824,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </footer>
+      </motion.footer>
     </main>
   );
 };

@@ -48,7 +48,7 @@ const ImageSlider: React.FC = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
   const [currentImage, setCurrentImage] = useState(1);
 
-  const totalImages = 19; // Update with the total number of images
+  const totalImages = 15; // Update with the total number of images
 
   const scrollSlider = (direction: 'left' | 'right') => {
     const step = 100; // adjust as needed
