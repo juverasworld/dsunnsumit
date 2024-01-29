@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 const Countdown: React.FC = () => {
-    const eventDate = new Date('2024-03-06T00:00:00Z'); // Set your event date and time here
+    const eventDate = new Date('2024-03-24T00:00:00Z'); // Set your event date and time here
     const [timeRemaining, setTimeRemaining] = useState<number>(calculateTimeRemaining());
 
     function calculateTimeRemaining() {
