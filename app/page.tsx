@@ -359,10 +359,7 @@ const Home = () => {
       </motion.div>
 
       <section className="my-16" id="about">
-        <div
-         
-          className="flex xl:flex-row flex-col justify-evenly items-center lg:mx-10 mx-4 "
-        >
+        <div className="flex xl:flex-row flex-col justify-evenly items-center lg:mx-10 mx-4 ">
           <div className="xl:w-[45%] mx-2 w-full">
             <h1 className="text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] font-bold xl:text-[72px] text-[48px] ">
               About Event
@@ -379,7 +376,7 @@ const Home = () => {
               <span className="text-[#333333] font-bold">hackathon</span>{" "}
               organized by{" "}
               <span className="text-[#333333] font-bold">
-                Data Scientists Network UNN(DSN)
+                Data Science Nigeria UNN(DSN)
               </span>
               . Participants can expect engaging sessions, hands-on workshops,
               and networking opportunities, all geared towards fostering
@@ -662,7 +659,7 @@ const Home = () => {
           <div className=" my-16">
             <div className="flex justify-center items-center lg:text-left text-center ">
               <div className="xl:text-center  xl:text-[48px]  font-bold lg:text-[40px] lg:leading:[47.73px]  leading:[38.19px] text-[32px] xl:leading-[56px] ">
-                <span className="">Data Scientists Network UNN 2024 </span>
+                <span className="">Data Science Nigeria UNN 2024 </span>
                 <br className="md:flex hidden " />
                 <span className=" ">Sponsorship</span>
               </div>
