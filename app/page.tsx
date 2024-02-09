@@ -207,7 +207,7 @@ const Home = () => {
             className="flex justify-center items-center "
           >
             <div className="xl:text-center  xl:text-[104px] tracking-[-2%] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
-              <span className=" text-[#FE0000]">Data Scientists Network </span>
+              <span className=" text-[#FE0000]">Data Scientists Nigeria </span>
               <span className="text-[#009933] ">UNN Summit</span>
             </div>
           </motion.div>
