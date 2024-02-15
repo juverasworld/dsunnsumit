@@ -207,7 +207,7 @@ const Home = () => {
             className="flex justify-center items-center "
           >
             <div className="xl:text-center  xl:text-[104px] tracking-[-2%] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
-              <span className=" text-[#FE0000]">Data Scientists Nigeria </span>
+              <span className=" text-[#FE0000]">Data Science Nigeria </span>
               <span className="text-[#009933] ">UNN Summit</span>
             </div>
           </motion.div>
@@ -386,13 +386,13 @@ const Home = () => {
               contribute to the dynamic field of data and technology in Africa.
             </div>
             <div className="flex  items-center md:flex-row flex-col my-5 ">
-              <div className="flex mx-2 my-2">
+              <div className="flex mx-2 my-2 ">
                 <p className="">
-                  <Link href="">
-                    <button className="flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[35px] py-[10px] text-[20px]">
-                      Get Our Custom DP
+                  <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
+                    <button className="flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-[30px]  px-[30px] py-[9px] text-[20px]  my-2">
+                      Join Our community
                       <Image
-                        src="/img/arrow.svg"
+                        src="/img/green.svg"
                         width="10"
                         height="10"
                         alt=""
@@ -402,13 +402,13 @@ const Home = () => {
                   </Link>
                 </p>
               </div>
-              <div className="flex mx-2 my-2 ">
+              <div className="flex mx-2 my-2">
                 <p className="">
-                  <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
-                    <button className="flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-[30px]  px-[30px] py-[9px] text-[20px]  my-2">
-                      Join Our community
+                  <Link href="">
+                    <button className="flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[35px] py-[10px] text-[20px]">
+                      Get Our Custom DP
                       <Image
-                        src="/img/green.svg"
+                        src="/img/arrow.svg"
                         width="10"
                         height="10"
                         alt=""

@@ -33,7 +33,13 @@ const ImageGallery: React.FC = () => {
       </div>
       <div ref={sliderRef} className="containers overflow-hidden relative">
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/lead.svg" />
+          <Image
+            width="100"
+            height="400"
+            alt=""
+            src="/img/ibekwe.png"
+            className="w-auto h-auto"
+          />
           <div className="button-container">
             <button className="hello-button">
               <Link href="https://www.linkedin.com/in/ibekwe-kingsley-ba0b0516a">
@@ -49,7 +55,7 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/nancy.svg" />
+          <Image width="100" height="400" alt="" src="/img/nancy.png" />
           <div className="button-container">
             <button className="hello-button">
               <Link href="https://www.linkedin.com/in/nancy-amandi">
@@ -65,7 +71,7 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/chukwuemeka.svg" />
+          <Image width="100" height="400" alt="" src="/img/chukwuemeka.png" />
           <div className="button-container">
             <button className="hello-button">
               <Link href="https://www.linkedin.com/in/samuel-okwor-b80740242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
@@ -81,7 +87,7 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/vera.svg" />
+          <Image width="100" height="400" alt="" src="/img/vera.png" />
           <div className="button-container">
             <button className="hello-button">
               <Link href="https://www.linkedin.com/in/obasi-vera-a8b155198/">
@@ -97,7 +103,7 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/oluwa.svg" />
+          <Image width="100" height="400" alt="" src="/img/oluwa.png" />
           <div className="button-container">
             <button className="hello-button">
               <Link href="">
@@ -113,7 +119,7 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/boniface.svg" />
+          <Image width="100" height="400" alt="" src="/img/boniface.png" />
           <div className="button-container">
             <button className="hello-button">
               <Link href="">
@@ -129,7 +135,7 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/chidera.svg" />
+          <Image width="100" height="400" alt="" src="/img/chidera.png" />
           <div className="button-container">
             <button className="hello-button">
               <Link href="">
@@ -145,7 +151,7 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/chisom.svg" />
+          <Image width="100" height="100" alt="" src="/img/chisom.png" />
           <div className="button-container">
             <button className="hello-button">
               <Link href="https://www.linkedin.com/in/chisom-chibuike/">
@@ -161,7 +167,7 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/tochukwu.svg" />
+          <Image width="100" height="400" alt="" src="/img/tochukwu.png" />
           <div className="button-container px-5">
             <button className="hello-button">
               <Link href="https://www.linkedin.com/in/tobechukwu-okamkpa">
@@ -177,10 +183,42 @@ const ImageGallery: React.FC = () => {
           </div>
         </div>
         <div className="box">
-          <Image width="10" height="10" alt="" src="/img/solomon.svg" />
+          <Image width="100" height="400" alt="" src="/img/solomon.png" />
           <div className="button-container px-5">
             <button className="hello-button">
               <Link href="https://www.linkedin.com/in/odelola-solomono-47b816194/">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
+          </div>
+        </div>
+        <div className="box">
+          <Image width="100" height="400" alt="" src="/img/okonkwo.png" />
+          <div className="button-container px-5">
+            <button className="hello-button">
+              <Link href="https://www.linkedin.com/in/chinonso-okonkwo/">
+                <Image
+                  src="/img/button.svg"
+                  alt=""
+                  width="3"
+                  height="3"
+                  className="w-2 icons"
+                />
+              </Link>{" "}
+            </button>
+          </div>
+        </div>
+        <div className="box">
+          <Image width="100" height="400" alt="" src="/img/kamto.png" />
+          <div className="button-container px-5">
+            <button className="hello-button">
+              <Link href="https://www.linkedin.com/in/kamtochukwu-obichili-76a47719b-socialmediamanagement?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <Image
                   src="/img/button.svg"
                   alt=""
